@@ -1,0 +1,28 @@
+https://www.airport-atl.com/atlanta-,ATL,Hartsfield–Jackson Atlanta International Airport,America/New_York
+https://www.airport-dallas.com/dfw-,DFW,Dallas Fort Worth International Airport,America/Chicago
+https://www.denver-airport.com/DIA-,DEN,Denver International Airport,America/Denver
+https://www.los-angeles-airport.com/lax-,LAX,Los Angeles International Airport,America/Los_Angeles
+https://www.airport-charlotte.com/clt-,CLT,Charlotte Douglas International Airport,America/New_York
+https://www.orlando-airport.com/mco-,MCO,Orlando International Airport,America/New_York
+https://www.las-vegas-airport.com/harry-reid-,LAS,McCarran International Airport,America/Los_Angeles
+https://www.phoenix-airport.com/phx-sky-harbor-,PHX,Phoenix Sky Harbor International Airport,America/Phoenix
+https://www.airport-mia.com/miami-,MIA,Miami International Airport,America/New_York
+https://www.seattle-airport.com/seatac-,SEA,Seattle-Tacoma International Airport,America/Los_Angeles
+https://www.airport-houston.com/iah-,IAH,George Bush Intercontinental Airport,America/Chicago
+https://www.airport-ewr.com/newark-,EWR,Newark Liberty International Airport,America/New_York
+https://www.fort-lauderdale-airport.com/fll-,FLL,Fort Lauderdale–Hollywood International Airport,America/New_York
+https://www.minneapolis-airport.com/msp-,MSP,Minneapolis–Saint Paul International Airport,America/Chicago
+https://www.airport-sfo.com/san-francisco-,SFO,San Francisco International Airport,America/Los_Angeles
+https://www.detroit-airport.com/dtw-metro-,DTW,Detroit Metropolitan Airport,America/Detroit
+https://www.boston-airport.com/logan-,BOS,Boston Logan International Airport,America/New_York
+https://www.salt-lake-city-airport.com/slc-,SLC,Salt Lake City International Airport,America/Denver
+https://www.philadelphia-airport.com/phl-,PHL,Philadelphia International Airport,America/New_York
+https://www.baltimore-airport.com/bwi-,BWI,Baltimore Washington International Thurgood Marshall Airport,America/New_York
+https://www.tampa-airport.com/tpa-,TPA,Tampa International Airport,America/New_York
+https://www.san-diego-airport.com/san-,SAN,San Diego International Airport,America/Los_Angeles
+https://www.laguardia-airport.com/lga-,LGA,LaGuardia Airport,America/New_York
+https://www.midway-airport.com/mdw-,MDW,Chicago Midway International Airport,America/Chicago
+https://www.nashville-airport.com/bna-,BNA,Nashville International Airport,America/Chicago
+https://www.washington-airport.com/dulles-airport/iad-,IAD,Washington Dulles International Airport,America/New_York
+https://www.washington-airport.com/dca-airport/reagan-washington-national-airport-,DCA,Ronald Reagan Washington National Airport,America/New_York
+https://www.austin-airport.com/abia-,AUS,Austin-Bergstrom International Airport,America/Chicago
