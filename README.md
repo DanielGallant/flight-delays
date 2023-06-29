@@ -1,29 +1,18 @@
 # airport-traffic
 
+### Summary
 
-## Webscraper - US airport delay data
-flight data - how correlated are delays - matrix of average delay correlation - does it correlate with traffic and distance?
-https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_the_United_States
+This project makes day-ahead predictions for flight delays at US airports. Forecasting disruption is useful for airports and airlines as it can be used to deploy mitigating resources to minimise the disruption.
 
-https://www.nationsonline.org/oneworld/map/google_map_major_US_and_Canadian_Airports.htm
+At the time of commit, the model (feed-forward NN) is performing well considering it has only 2 months of flight data - the main data source.
 
-https://uk.flightaware.com/commercial/aeroapi/
-compare to:
-weather data for that day
-day of week
-time of year
-inflation
-number of run ways
-number of terminals
-look at airlines
-time of day
+All of the analysis can be found in [analysis.ipynb]{analysis/analysis.ipynb}
 
+### Data sources and Features
+Fight data is web scraped daily from 28 US airports using a scheduled Azure Function with Beautiful Soup [analysis.ipynb]{web_scraper/__init___.py}. Each flight record is categorised as on-time or delayed, then the proportion of flights delayed each day at each airport is calculated (1,2,3 & 5 days looking back).
 
-Scheduler must be hourly - 5 mins to hour end to account for time zones (4 time zones in US mainland)
+Minor features include seasonality, public holidays, day of the week, and the airport itself.
 
-Charts:
-time series - delays per day - all airports
+### Modelling
 
-ignored because different url formats
-https://www.airport-ohare.com/arrivals.php
-https://www.airport-jfk.com/arrivals.php
+The flight delay prediction model (feed-forward NN) is designed to accurately forecast flight delays based on historical data. With an R2 score of 0.6513 and low mean squared error (MSE) and mean absolute error (MAE), the model demonstrates strong predictive capabilities. The model is continuously updated with additional historical data to improve accuracy and enhance its predictive power. Future enhancements may involve incorporating weather forecasts, economic data, and other relevant variables to further enhance the model's performance.
